@@ -7,9 +7,11 @@
 // diceRoll(Math.random(number))
 
 
-// const rollDice = (number) => {
-//   const doubleDie = number*2;
-//   return doubleDie;
-// }
+const rollDice = (number) => {
+  const doubleDie = number * 2
+  return doubleDie
+}
 
-// console.log(rollDice(Math.floor(1 + Math.random() * 6)));
+// console.log(rollDice(Math.floor(1 + Math.random() * 6)))
+// rollDice(3)
+console.log(rollDice(3))
