@@ -8,3 +8,10 @@
 // }
 
 // window.addEventListener('DOMContentLoaded', init)
+
+// function processActivities(event) {
+//   event.preventDefault();
+//   document.getElementById('myActivities').innerHTML = '<li> My activity </li>';
+// }
+
+// document.getElementById('activitySubmit').addEventListener('click', processActivities);

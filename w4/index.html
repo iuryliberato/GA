@@ -3,20 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
   <title>GA page</title>
 </head>
-<body>
-<script src="js/eventsAndHandlers.js"></script>
-<script src="js/getBlog.js"></script>
-
-<!-- <button class="buttons"  >Click me</button>
-<script>
-  $('.buttons').mouseover(
-    function() {
-      console.log('button onver')
-    }
-  )
-  </script> -->
+<body>  
+  <form>
+    <label for="diary">Things I've done today:</label>
+    <input type="text" id="diary" name="diary"/>
+    <button id="activitySubmit">Submit</button>
+  </form>
+  
+  <ul id="myActivities">
+    <!-- <li>Went to walthemstow</li> -->
+  </ul>
+  <!-- BLOG TITLES -->
+  <ul id="blogTitles"></ul>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/getBlog.js"></script>
+  <script src="js/eventsAndHandlers.js"></script>
+  <script src="js/diary.js"></script>
+ 
 
 </body>
-</html> 
+</html>
